@@ -1,7 +1,7 @@
 # Installing
 
 ```
-sudo npm i br4nch --save
+sudo npm i --save br4nch
 ```
 
 # Usage Example

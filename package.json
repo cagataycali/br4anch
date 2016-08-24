@@ -1,6 +1,6 @@
 {
   "name": "br4nch",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get your current branch or remote add origin easily",
   "main": "index.js",
   "scripts": {

@@ -24,6 +24,8 @@
   "homepage": "https://github.com/cagataycali/br4anch#readme",
   "dependencies": {
     "3x3c": "^1.0.1",
-    "async": "^2.0.1"
+    "async": "^2.0.1",
+    "prompt": "^1.0.0",
+    "update-notifier": "^1.0.2"
   }
 }

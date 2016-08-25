@@ -7,7 +7,9 @@ updateNotifier({pkg}).notify();
 module.exports = function () {
   return new Promise(function (resolve, reject) {
     E(`git symbolic-ref HEAD`)
-      .then((value) => {resolve(value.split('/').pop(-1).trim())})
+      .then((value) => {
+        resolve(value.slice(11, value.length))
+      })
       .catch((err) => {reject(err)});
   });
 }
